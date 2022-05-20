@@ -1,3 +1,10 @@
 ALFA: Sanchez De Bustamante Tomas
 BETA: Agnoli Luca Nahuel
 GAMMA: Real Agustin Enrique
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+No, no puede actualizarlo debido a que ALFA y GAMMA no son los usuarios principales del repositorio de github, lo es BETA.
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+Se mantuvieron los mismos datos en caso de actualizar el fork.
