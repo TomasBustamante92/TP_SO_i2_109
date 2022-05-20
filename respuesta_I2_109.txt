@@ -8,3 +8,81 @@ No, no puede actualizarlo debido a que ALFA y GAMMA no son los usuarios principa
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 Se mantuvieron los mismos datos en caso de actualizar el fork.
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos 
+
+Paso 1 - BETA - Agnoli Luca Nahuel (Crea el repositorio con un README y el archivo fork.txt)
+
+1- git clone https://github.com/LucaAg/TP_SO_i2_109
+2- git status
+3- git add .
+4- git status
+5- git commit -m "agrego el archivo fork.txt"
+6- git push
+
+Paso 2 - GAMMA - Real Agustin Enrique (Se hace un FORK y agrega nombre y apellido, IP y hora al archivo fork.txt)
+
+1-  git clone https://github.com/AgustinReal/TP_SO_i2_109
+2-  git add .
+3-  git status
+4-  git commit -m "GAMMA HIZO EL FORK"
+5-  git push
+
+Paso 3 - ALFA - Sanchez De Bustamante Tomas (Se hace un FORK y agrega nombre y apellido, IP y hora al archivo fork.txt)
+
+1-  git clone https://github.com/TomasBustamante92/TP_SO_i2_109.git
+2-  ipconfig
+3-  git status
+4-  git add .
+5-  ls
+6-  git add .
+7-  git commit -m "modifico el fork.txt con mis datos"
+8-  git push
+
+Paso 4 - BETA - Agnoli Luca Nahuel (Descarga el repositorio de forma local y crea NuevoDato.txt)
+
+7- git status
+8- git add .
+9- git commit -m "BETA agrega archivo NuevoDato.txt"
+10- git push
+
+Paso 5 - GAMMA - Real Agustin Enrique / ALFA - Sanchez De Bustamante Tomas (Actualización del repositorio al estado de BETA)
+
+6-  git status
+7-  git -h
+8-  git fetch
+9-  git status
+10-  git pull
+
+Paso 6 - BETA - Agnoli Luca Nahuel (Agrega un archivo txt)
+
+11- git status
+12- git add .
+13- git commit -m "Beta agrega archivo respuesta_I2_109.txt"
+14- git push
+
+Paso 7 - GAMMA - Real Agustin Enrique  (Contesta las preguntas A y B en el archivo respuesta_I2_109.txt)
+
+11- git pull
+12-  git add .
+13-  git commit -m "Gamma respondio A y B"
+14-  git push
+
+Paso 8 - BETA - Agnoli Luca Nahuel (Contesta las preguntas C y D en el archivo respuesta_I2_109.txt)
+15- git status
+16- git add .
+17- git commit -m "BETA sube respuestas c y d"
+18- git push
+
+
+Paso 9 - ALFA - Sanchez De Bustamante Tomas (Contesta la pregunta E en el archivo respuesta_I2_109.txt)
+14-  git status
+15-  git fetch
+16-  git status
+17-  git pull
+
+
+
+
+
